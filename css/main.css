@@ -140,4 +140,14 @@ main section#primary a {
     padding: 15px 60px;
   }
 }
+
+main section#primary a:hover {
+  background-color: #bba200;
+}
+
+@media (min-width: 840px) {
+  main section#primary a:hover a:hover {
+    background-color: #bba200;
+  }
+}
 /*# sourceMappingURL=main.css.map */
